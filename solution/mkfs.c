@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <wfs.h>
 
 #define FAIL 1
 #define SUCCESS 0
