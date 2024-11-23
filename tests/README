@@ -1,0 +1,5 @@
+To run the tests:
+- `make` your code in the solution directory
+- run ./run-tests.sh
+
+Tests 1-9 are for mkfs.

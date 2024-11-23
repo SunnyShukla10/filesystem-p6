@@ -1,0 +1,1 @@
+truncate -s 1M test-disk1; truncate -s 1M test-disk2; truncate -s 1M test-disk3; truncate -s 1M test-disk4; truncate -s 1M test-disk5; ../solution/mkfs -r 0 -d test-disk1 -d test-disk2 -d test-disk3 -d test-disk4 -d test-disk5 -i 40 -b 300

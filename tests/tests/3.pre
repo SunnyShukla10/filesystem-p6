@@ -1,0 +1,1 @@
+truncate -s 1M test-disk1; ../solution/mkfs -r 1 -d test-disk1 -i 32 -b 224

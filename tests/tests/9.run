@@ -1,0 +1,1 @@
+./check-mkfs.py 64 320 test-disk1 test-disk2 test-disk3 test-disk4 test-disk5

@@ -137,7 +137,7 @@ This C program initializes a file to an empty filesystem. The program receives t
   ```sh
   ./mkfs -r 1 -d disk1 -d disk2 -i 32 -b 200
   ```
-  initializes all disks (disk1 and disk2) to an empty filesystem with 32 inodes and 224 data blocks. The size of the inode and data bitmaps are determined by the number of blocks specified by `mkfs`. If `mkfs` finds that the disk image file is too small to accommodate the number of blocks, it should exit with return code 1. `mkfs` should write the superblock and root inode to the disk image.
+  initializes all disks (disk1 and disk2) to an empty filesystem with 32 inodes and 224 data blocks. The size of the inode and data bitmaps are determined by the number of blocks specified by `mkfs`. If `mkfs` finds that the disk image file is too small to accommodate the number of blocks, it should exit with return code -1. `mkfs` should write the superblock and root inode to the disk image.
 
 ## Part 2 --- `wfs.c` (85% of the grade)
 

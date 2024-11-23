@@ -1,0 +1,1 @@
+./check-mkfs.py 32 224 test-disk1
